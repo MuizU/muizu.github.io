@@ -1,10 +1,10 @@
 <template>
-  <v-footer app absolute class="font-weight-medium">
-    <v-col class="text-center" cols="12">
-      {{ new Date().getFullYear() }} 
-      <strong>Muiz Uvais</strong>
-    </v-col>
-  </v-footer>
+	<v-footer app absolute class="font-weight-medium">
+		<v-col class="text-center" cols="12">
+			&copy; Copyright {{ new Date().getFullYear() }}
+			<strong>Muiz Uvais</strong>
+		</v-col>
+	</v-footer>
 </template>
 
 <script>
