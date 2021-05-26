@@ -6,6 +6,12 @@ import vuetify from './plugins/vuetify';
 
 Vue.config.productionTip = false
 
+import LoadScript from 'vue-plugin-load-script';
+ 
+Vue.use(LoadScript);
+
+Vue.loadScript("https://code.iconify.design/1/1.0.7/iconify.min.js")
+
 new Vue({
   router,
   store,

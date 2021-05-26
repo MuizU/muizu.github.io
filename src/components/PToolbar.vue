@@ -11,7 +11,14 @@
 								$vuetify.breakpoint.smAndDown,
 						}"
 					>
+						<img
+							src="../assets/logo_transparent.png"
+							alt="logo"
+							style="height: 120px; width: 120px"
+						/>
+						<!--<p>
 						Muiz Uvais
+						</p> -->
 					</div>
 					<v-spacer></v-spacer>
 					<v-toolbar-items class="text-right">

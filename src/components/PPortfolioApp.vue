@@ -44,8 +44,14 @@
 				<template v-for="(tech, i) in app.technologies">
 					<v-flex xs3 :key="i">
 						<div class="text-center">
-							<v-btn icon>
-								<v-icon>{{ tech.icon }}</v-icon>
+							<v-btn icon :href="tech.link" target="_blank">
+								<span
+									v-if="tech.icon.includes('netlify')"
+									class="iconify"
+									data-icon="vscode-icons:file-type-netlify"
+									data-inline="false"
+								></span>
+								<v-icon v-else>{{ tech.icon }}</v-icon>
 							</v-btn>
 							<div class="caption">{{ tech.name }}</div>
 						</div>

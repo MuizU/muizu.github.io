@@ -27,7 +27,7 @@
 									'subtitle-1': $vuetify.breakpoint.smAndDown,
 								}"
 							>
-								I make applications.
+								I Build applications.
 							</div>
 						</v-col>
 					</v-row>
@@ -110,7 +110,44 @@ export default {
 		return {
 			aboutText:
 				"I enjoy building apps in my free time when I'm not doing much. I'm also not that good of a writer as you can see. Anyways, you are free to download any of the code thats on my github! And I hope you have a great day!",
-			apps: [],
+			apps: [
+				{
+					name: "Lyrics Findr",
+					price: "LIVE",
+					logo: "lyric-findr-logo.png",
+					platforms: [
+						{
+							name: "web",
+							icon: "mdi-web",
+							link: "https://lyric-findr-9703ec.netlify.app/",
+						},
+					],
+					description:
+						"I needed a place to search for lyrics. I came up with Lyrics Findr to be able to search for songs and find the relevant lyrics.",
+					technologies: [
+						{
+							name: "ReactJs",
+							icon: "mdi-react",
+							link: "https://reactjs.org/",
+						},
+						{
+							name: "Bootstrap",
+							icon: "mdi-bootstrap",
+							link: "https://getbootstrap.com/",
+						},
+						{
+							name: "Netlify",
+							icon: "mdi-netlify",
+							link: "https://www.netlify.com/",
+						},
+					],
+					code: {
+						name: "github",
+						icon: "mdi-github",
+						link: "https://github.com/MuizU/lyric-findr",
+					},
+				},
+			],
 			contactLinks: [
 				{
 					name: "Email",
