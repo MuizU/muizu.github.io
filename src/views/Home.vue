@@ -112,7 +112,7 @@ export default {
 				"I enjoy building apps in my free time when I'm not doing much. I'm also not that good of a writer as you can see. Anyways, you are free to download any of the code thats on my github! And I hope you have a great day!",
 			apps: [
 				{
-					name: "Lyrics Findr",
+					name: "LyricFindr",
 					price: "LIVE",
 					logo: "lyric-findr-logo.png",
 					platforms: [
@@ -123,7 +123,7 @@ export default {
 						},
 					],
 					description:
-						"I needed a place to search for lyrics. I came up with Lyrics Findr to be able to search for songs and find the relevant lyrics.",
+						"I needed a place to search for lyrics. I came up with LyricFindr to be able to search for songs and find the relevant lyrics.",
 					technologies: [
 						{
 							name: "ReactJs",
