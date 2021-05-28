@@ -120,7 +120,7 @@ export default {
 						{
 							name: "web",
 							icon: "mdi-web",
-							link: "https://lyric-findr-9703ec.netlify.app/",
+							link: "https://lyric-findr.tk/",
 						},
 					],
 					description:
