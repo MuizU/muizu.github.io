@@ -4,8 +4,8 @@
 		<!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 		<v-img
 			dark
-			max-height="500px"
-			src="https://unsplash.com/photos/95YRwf6CNw8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+			max-height="750px"
+			src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 		>
 			<v-layout fill-height align-center>
 				<v-container>
@@ -27,7 +27,7 @@
 									'subtitle-1': $vuetify.breakpoint.smAndDown,
 								}"
 							>
-								I Build applications.
+								I make applications.
 							</div>
 						</v-col>
 					</v-row>
