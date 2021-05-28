@@ -10,7 +10,7 @@
 			<v-layout fill-height align-center>
 				<v-container>
 					<v-row align="center" justify="center" class="white--text">
-						<v-col cols="12">
+						<v-col cols="12" style="text-shadow: 0 1px 0 black">
 							<div
 								:class="{
 									'display-2 font-weight-bold ':
@@ -27,7 +27,8 @@
 									'subtitle-1': $vuetify.breakpoint.smAndDown,
 								}"
 							>
-								I make applications.
+								I am a Full-Stack Developer who Design &amp;
+								Develop Web &amp; Mobile Applications
 							</div>
 						</v-col>
 					</v-row>
