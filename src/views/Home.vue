@@ -19,7 +19,7 @@
 										$vuetify.breakpoint.smAndDown,
 								}"
 							>
-								Welcome to my page.
+								Welcome to my site!
 							</div>
 							<div
 								:class="{
