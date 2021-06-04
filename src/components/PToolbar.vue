@@ -3,23 +3,14 @@
 		<v-layout justify-center>
 			<v-container>
 				<v-layout>
-					<div
-						:class="{
-							'display-1 font-weight-bold':
-								$vuetify.breakpoint.smAndUp,
-							'title font-weight-bold':
-								$vuetify.breakpoint.smAndDown,
-						}"
-					>
-						<img
-							src="../assets/logo_transparent.png"
-							alt="logo"
-							style="height: 120px; width: 120px"
-						/>
-						<!--<p>
+					<img
+						src="../assets/logo_transparent.png"
+						alt="logo"
+						style="height: 80px; width: 80px"
+					/>
+					<!--<p>
 						Muiz Uvais
 						</p> -->
-					</div>
 					<v-spacer></v-spacer>
 					<v-toolbar-items class="text-right">
 						<v-btn

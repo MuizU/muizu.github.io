@@ -1,7 +1,5 @@
 <template>
 	<div class="home">
-		<!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-		<!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 		<v-img
 			dark
 			max-height="750px"
@@ -43,12 +41,55 @@
 					</div>
 				</v-flex>
 				<v-flex xs12 mt-5>
-					<div class="body-1">{{ aboutText }}</div>
-					<div class="body-1 mt-3">
-						Working on starting an app development business and
-						always looking for new clients! Would love to talk to
-						you about your idea.
-					</div>
+					<v-row>
+						<v-col cols="4">
+							<v-img
+								src="../assets/portrait.jpeg"
+								max-width="100%"
+								max-height="auto"
+							>
+							</v-img>
+						</v-col>
+						<v-col cols="8">
+							<v-row>
+								<v-col cols="12">
+									I am a software engineer with robust
+									problem-solving skills and proven experience
+									in creating software and adapting to new
+									circumstances.
+								</v-col>
+								<v-col cols="12">
+									<h2>Skills</h2>
+								</v-col>
+								<v-col cols="12">
+									<v-row>
+										<v-col
+											cols="3"
+											v-for="skill in skills"
+											:key="skill.name"
+										>
+											<p>{{ skill.name }}</p>
+											<v-progress-linear
+												v-model="skill.score"
+												color="lime"
+												height="25"
+											>
+												<template
+													v-slot:default="{ value }"
+												>
+													<strong
+														>{{
+															Math.ceil(value)
+														}}%</strong
+													>
+												</template>
+											</v-progress-linear>
+										</v-col>
+									</v-row>
+								</v-col>
+							</v-row>
+						</v-col>
+					</v-row>
 				</v-flex>
 			</v-layout>
 			<v-layout wrap my-5>
@@ -109,8 +150,68 @@ export default {
 	},
 	data() {
 		return {
-			aboutText:
-				"I enjoy building apps in my free time when I'm not doing much. I'm also not that good of a writer as you can see. Anyways, you are free to download any of the code thats on my github! And I hope you have a great day!",
+			skills: [
+				{
+					name: "HTML",
+					score: "80",
+				},
+				{
+					name: "CSS",
+					score: "60",
+				},
+				{
+					name: "JavaScript",
+					score: "80",
+				},
+				{
+					name: "Java",
+					score: "70",
+				},
+				{
+					name: "Python",
+					score: "70",
+				},
+				{
+					name: "GoLang",
+					score: "40",
+				},
+				{
+					name: "C#",
+					score: "50",
+				},
+				{
+					name: "TypeScript",
+					score: "60",
+				},
+				{
+					name: "ReactJS",
+					score: "80",
+				},
+				{
+					name: "NuxtJS",
+					score: "80",
+				},
+				{
+					name: "Flask",
+					score: "60",
+				},
+				{
+					name: "Bootstrap",
+					score: "60",
+				},
+				{
+					name: "Figma",
+					score: "70",
+				},
+				{
+					name: "Axure",
+					score: "60",
+				},
+				{
+					name: "InVision Studio",
+					score: "70",
+				},
+			],
 			apps: [
 				{
 					name: "LyricFindr",
