@@ -8,6 +8,11 @@ import Contact from "./components/Contact";
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
+      <Helmet>
+        <meta charSet="UTF-8" />
+        <title>Muiz Uvais</title>
+        <link rel="canonical" href="https://muizuvais.ml" />
+      </Helmet>
       <Navbar />
       <About />
       <Projects />
