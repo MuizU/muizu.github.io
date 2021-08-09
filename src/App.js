@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skils";
 import Contact from "./components/Contact";
+import { Helmet } from "react-helmet";
 
 export default function App() {
   return (
