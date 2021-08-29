@@ -5,10 +5,7 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@formspree/react": "^2.2.3",
-    "@heroicons/react": "^1.0.3",
-    "@sendgrid/mail": "^7.4.5",
-    "axios": "^0.21.1",
-    "netlify-lambda": "^2.0.14",
+    "@heroicons/react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
@@ -18,8 +15,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "postinstall": "netlify-lambda install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
