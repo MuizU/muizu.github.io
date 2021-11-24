@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React.js, Bootstrap, Chart.js CoinCap API ",
     description:
       "A cryptocurrency tracker which displays the cryptocurrency prices and price history, as well as fiat currency prices, and details about crypto exchanges. This web app uses the CoinCap API.",
-    image: "./project-1.gif",
+    image: "./lyric-findr.gif",
     link: "https://crypto-watch.tk",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React.js, Bootstrap, Shazam API",
     description:
       "This app enables the user to search for lyrics of songs. It is powered by the Shazam API",
-    image: "./project-2.gif",
+    image: "./crypto-watch.gif",
     link: "https://lyric-findr.tk/",
   },
 ];
