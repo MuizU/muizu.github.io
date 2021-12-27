@@ -39,7 +39,6 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                11/14 St Marys Road <br />
                 Mount Lavinia 10370, Western Province, Sri Lanka
               </p>
             </div>
