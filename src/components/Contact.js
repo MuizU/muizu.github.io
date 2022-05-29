@@ -9,7 +9,7 @@ export default function Contact() {
           Contact Me</h1>
 
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          If you've seen my potential or want to talk to me, don't hesitate to send me a message.</p>
+          If you've seen my potential or want to talk to me, don't hesitate to contact me.</p>
       </header>
       <div className="container px-5 py-10 mx-auto flex align-center justify-center sm:flex-nowrap flex-wrap">
             <div className="px-6 lg:w-1/2">
