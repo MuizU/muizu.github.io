@@ -37,8 +37,14 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "Python",
-  "React",
-  "Nuxt.js",
+  "HTML",
+  "CSS",
+  "Sass",
+  "React JS",
+  "Next JS",
+  "Vue JS",
+  "Nuxt JS",
+  "Strapi CMS",
   "Flask",
   "Bootstrap",
 ];
