@@ -4,14 +4,14 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <header className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+      <header className="container px-5 py-10 mx-auto flex flex-col sm:flex-nowrap flex-wrap justify-center align-center">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mx-auto">
           Contact Me</h1>
 
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           If you've seen my potential or want to talk to me, don't hesitate to send me a message.</p>
       </header>
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex align-center justify-center sm:flex-nowrap flex-wrap">
             <div className="px-6 lg:w-1/2">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
