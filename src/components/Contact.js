@@ -11,7 +11,7 @@ export default function Contact() {
           <p className="text-base mx-auto leading-relaxed xl:w-2/4 lg:w-3/4">
           If you've seen my potential or want to talk to me, don't hesitate to contact me.</p>
       </header>
-      <div style={{paddingLeft:'9.25rem'}} className="container px-5 py-10 mx-auto flex align-center justify-center sm:flex-nowrap flex-wrap">
+      <div style={{paddingLeft:'9.25rem',paddingTop:'0.5rem'}} className="container px-5 py-10 mx-auto flex align-center justify-center sm:flex-nowrap flex-wrap">
             <div className="px-6 lg:w-1/2">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
