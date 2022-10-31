@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A cryptocurrency tracker which displays the cryptocurrency prices and price history, as well as fiat currency prices, and details about crypto exchanges. This web app uses the CoinCap API.",
     image: "./crypto-watch.gif",
-    link: "https://crypto-watch.tk",
+    link: "https://zingy-fox-27097c.netlify.app/",
   },
   {
     title: "Lyric-Findr",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "This app enables the user to search for lyrics of songs. It is powered by the Shazam API",
     image: "./lyric-findr.gif",
-    link: "https://lyric-findr.tk/",
+    link: "https://lyric-findr-9703ec.netlify.app/",
   },
 ];
 
