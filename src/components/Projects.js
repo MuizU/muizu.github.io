@@ -16,7 +16,7 @@ export default class Projects extends Component {
               Listed below are the various web application I have built
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap justify-center -m-4">
             {projects.map((project) => (
               <a
                 href={project.link}
