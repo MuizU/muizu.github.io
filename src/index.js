@@ -1,11 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import initScrollReveal from "./scripts/scrollReveal";
+import initTiltEffect from "./scripts/tiltAnimation";
+import { targetElements, defaultProps } from "./data/scrollRevealConfig";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+initScrollReveal(targetElements, defaultProps);
+initTiltEffect();
